@@ -9,9 +9,6 @@
     "heading": {
       "type": "string"
     },
-    "subHeading": {
-      "type": "text"
-    },
     "image": {
       "type": "media",
       "multiple": false,
@@ -24,6 +21,9 @@
       "type": "component",
       "repeatable": false,
       "component": "components.link"
+    },
+    "subHeading": {
+      "type": "text"
     }
   }
 }
